@@ -8,7 +8,7 @@ int targetSum(int arr[] ,int n , int target){
  int e=n-1;
  while(s<e){
  if (arr[s]+arr[e]==target){
-   cout<<"Par is found:"<<arr[s]<<" "<<arr[e]<<endl;
+   cout<<"Pair is found:"<<arr[s]<<" "<<arr[e]<<endl;
    return 0;
    }
    (arr[s]+arr[e]<target)?s++:e--;
